@@ -1,0 +1,12 @@
+package static_variable;
+
+public class first {
+
+	public static void main(String[] args) {
+		System.out.println("id="+student.id);
+	}
+
+}
+class student{
+	static int id=1;
+}

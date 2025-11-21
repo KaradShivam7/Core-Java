@@ -1,0 +1,22 @@
+package array_questions;
+
+public class fourth {
+    public static void main(String[]args) {
+    	int arr[]= {10,20,5,90,77};
+    	
+    	int min=arr[0];
+    	int max=arr[0];
+    	
+    	for(int i=0;i<arr.length;i++) {
+    		if(arr[i]<max) {
+    			max=arr[i];
+    		}
+    		if(arr[i]>min) {
+    			min=arr[i];
+    		}
+    	}
+    	
+    	System.out.println("minimum value of array is="+ min);
+    	System.out.println("maximum value of array is="+ max);
+    }
+}

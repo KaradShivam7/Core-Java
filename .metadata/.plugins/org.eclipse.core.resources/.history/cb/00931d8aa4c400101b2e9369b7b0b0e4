@@ -1,0 +1,14 @@
+package basics;
+
+public class datatypes {
+
+	public static void main(String[] args) {
+	   boolean name = true;        //size not defined
+	   System.out.println("name="+name);
+	   
+	   byte b=1;
+	   System.out.println(b);
+
+	}
+
+}

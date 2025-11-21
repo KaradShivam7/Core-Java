@@ -1,0 +1,29 @@
+package oned_array;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class first {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter size of array");
+		int size=sc.nextInt();
+		
+		int arr[]=new int[size];
+		
+		System.out.println("enter elementsnof array");
+		
+		for(int i=0; i<size; i++) {
+			arr[i]=sc.nextInt();
+		}
+		
+		System.out.println("array elements are");
+		for(int i=0; i<size; i++) {
+			System.out.println(arr[i]);
+		}
+		
+		System.out.println(Arrays.toString(arr));
+	}
+
+}
